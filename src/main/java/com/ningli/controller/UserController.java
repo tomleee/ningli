@@ -6,6 +6,7 @@ import com.github.pagehelper.PageInfo;
 import com.ningli.model.User;
 import com.ningli.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,7 +21,7 @@ import java.util.List;
  * @Description:
  */
 
-@RestController
+@Controller
 @RequestMapping("/ningli")
 public class UserController {
 

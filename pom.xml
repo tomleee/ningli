@@ -65,6 +65,12 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+        <!-- springboot 热部署 -->
+        <dependency>
+            <groupId>myrepository.org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>1.5.9.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
